@@ -1,0 +1,34 @@
+{
+  "name": "Google Meet Minutes Generator",
+  "description": "Transcribe Google Meet audio using SpeechRecognition and Web Audio API",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "tabCapture"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "Summary.png",
+    "48": "Summary.png",
+    "128": "Summary.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
