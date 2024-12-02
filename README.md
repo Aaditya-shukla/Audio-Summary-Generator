@@ -16,7 +16,7 @@ Instructions on how to install and set up the project.
 
 
 
-$ git clone git@github.com:Aaditya-shukla/Audio-Summary-Generator.git
+$ git clone https://github.com/Aaditya-shukla/Audio-Summary-Generator
 
 $ cd Audio-Summary-Generator
 
