@@ -78,7 +78,6 @@ const startAudioCapture = async () => {
       recognition.start();
       console.log("Speech recognition started...");
     } catch (error) {
-      console.error("Error capturing audio:", error);
       try {
         if (error.name === "NotAllowedError") {
           console.log("Microphone access denied by the user.");
@@ -215,7 +214,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   }
 
   if (msg.command === "generateSummary") {
-    console.log("Generating summary...=====");
+    console.log("Generating summary...=====", msg.summaryType);
     stopAudioCapture();
 
 
@@ -246,7 +245,7 @@ navigator.mediaDevices
 
 async function generateSummary(text, length) {
   // Simulated Gemini Nano API call
-  console.log("Generating", length);
+  console.log("Generating", length , text);
   const options = {
     // sharedContext: 'This is a scientific article',
     type: 'key-points',

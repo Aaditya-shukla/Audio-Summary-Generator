@@ -1,6 +1,6 @@
 {
-  "name": "Google Meet Minutes Generator",
-  "description": "Transcribe Google Meet audio using SpeechRecognition and Web Audio API",
+  "name": " Audio Summary Generator",
+  "description": "Transcribe Meeting audio using SpeechRecognition and Web Audio API",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [

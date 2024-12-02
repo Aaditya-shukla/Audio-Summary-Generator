@@ -2,7 +2,7 @@
 
 # Audio Summary Generator Chrome Extension
 
-The Audio Summary Generator is a Chrome Extension that helps users generate summaries of audio content in three lengths: Short, Medium, and Long. The extension interacts with the current active tab to fetch transcripts and generate summaries.Currently it works for url https://meet.google.com/. 
+The Audio Summary Generator is a Chrome Extension that helps users generate summaries of audio that has been spoken in an online or offline meeting in three lengths: Short, Medium, and Long.It uses the functionality of browser to generate audio to texts. The extension interacts with the current active tab to fetch transcripts and generate summaries.Currently it works for url https://meet.google.com/. 
 
 # Table of Contents
 
