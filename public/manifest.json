@@ -22,10 +22,15 @@
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": ["<all_urls>"],
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "*://*.google.com/*"
+  ],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "https://meet.google.com/*"
+      ],
       "js": [
         "content.js"
       ]
