@@ -24,7 +24,7 @@ $ cd Audio-Summary-Generator
 Start the project by command :
 
 ```bash
-npm run build
+npm install && npm run build
 ```
 
 
