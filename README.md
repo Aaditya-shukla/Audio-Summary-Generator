@@ -13,7 +13,7 @@ The Audio Summary Generator is a Chrome Extension that helps users generate summ
 # Installation
 
 Instructions on how to install and set up the project.
-
+Use node version 20 or above
 
 
 $ git clone https://github.com/Aaditya-shukla/Audio-Summary-Generator
